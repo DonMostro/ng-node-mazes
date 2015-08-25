@@ -25,7 +25,7 @@ var jsFilesToInject = [
 
   // Load sails.io before everything else
   'js/dependencies/sails.io.js',
-
+  'js/api/*.js',
   //Angular components
   'js/modules.js',
   'js/services/*Service.js',

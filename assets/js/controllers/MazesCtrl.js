@@ -8,6 +8,4 @@
  * @requires $scope
  * */
 angular.module('mazes')
-    .controller('Mazes', function($scope){
-
-});
+    .controller('Mazes', MazeController);

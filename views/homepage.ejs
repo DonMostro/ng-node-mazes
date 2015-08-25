@@ -21,6 +21,14 @@ setTimeout(function sunrise () {
         <ul class="getting-started">
             <li class="clearfix">
                 <div class="step">
+                <button ng-click="ctrl.newMaze()">New Maze</button>
+				    <table>
+				        <tr ng-repeat="row in ctrl.maze track by $index">
+				            <td ng-repeat="col in row track by $index" ng-class="{ 'wall' : col === 1, 'pillar' : col === 2 }"></td>
+				        </tr>
+				    </table>
+                
+                </div>
             </li>
             <li class="clearfix">
                 <div class="step">
