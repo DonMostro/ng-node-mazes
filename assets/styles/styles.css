@@ -1,0 +1,12 @@
+.pillar {
+  width: 15px;
+  height: 5px;
+  margin: 0;
+  background: red;
+}
+.wall {
+  width: 15px;
+  height: 5px;
+  margin: 0;
+  background: green;
+}

@@ -2,7 +2,7 @@
   "name": "ng-node-mazes",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "Angular Node.js Mazes",
   "keywords": [],
   "dependencies": {
     "sails": "~0.11.0",
@@ -21,7 +21,8 @@
     "grunt-contrib-uglify": "~0.4.0",
     "grunt-contrib-cssmin": "~0.9.0",
     "grunt-contrib-less": "0.11.1",
-    "grunt-contrib-coffee": "~0.10.1"
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-wiredep": "^2.0.0"
   },
   "scripts": {
     "start": "node app.js",

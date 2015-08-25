@@ -1,0 +1,26 @@
+{
+  "name": "ng-node-mazes",
+  "version": "0.0.0",
+  "homepage": "https://github.com/DonMostro/ng-node-mazes",
+  "authors": [
+    "DonMostro <rodrigo.riquelme.e@gmail.com>"
+  ],
+  "description": "test laberinto angular node js",
+  "keywords": [
+    "maze",
+    "angular",
+    "sails",
+    "test"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4"
+  }
+}

@@ -1,3 +1,3 @@
 # ng-node-mazes
 
-a [Sails](http://sailsjs.org) application
+Generador de laberintos y caminos óptimos con Angular y Node.js
